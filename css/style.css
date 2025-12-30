@@ -9808,7 +9808,7 @@ textarea.form-control {
   .testimonials-img {
       background-color: #000;
       margin-bottom: 15px;
-      border: 1px solid #87BBD7;
+      border: 1px solid #000;
       padding: 40px 20px;
       border-radius: 4px;
       display: flex;
@@ -9886,12 +9886,15 @@ textarea.form-control {
   margin-left: 70px;
   font-weight: 300;
   margin-bottom: 15px;
+  font-weight: 700;
   font-size: 20px;
+  color: #87BBD7;
 }
 
 .services .icon-box h4 a {
   color: #87BBD7;
   transition: 0.3s;
+  font-family: "Poppins", Arial, sans-serif;
 }
 
 .services .icon-box .icon-box:hover h4 a {
@@ -9901,8 +9904,10 @@ textarea.form-control {
 .services .icon-box p {
   margin-left: 70px;
   line-height: 24px;
-  font-size: 17px;
-  color: #fff
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  font-family: "Poppins", Arial, sans-serif;
 }
 
 .services .icon-box:hover h4 a {
